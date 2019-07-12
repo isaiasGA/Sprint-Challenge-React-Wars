@@ -3,7 +3,7 @@ import Character from './Character';
 
 const CharacterList = props => {
     return (
-        <div className='character-list'>
+        <div className='characterList'>
             {props.characters.map(character => (
               <Character 
                 key={character.name}

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 import CharacterList from './components/CharacterList';
+import Styles from './components/Styles';
 
 import './App.css';
 
@@ -17,7 +18,7 @@ function App() {
 console.log(starWars);
     return (
       <div className="App">
-        <h1 className="Header">React Wars 🌌</h1>
+        <Styles />
         < CharacterList characters={starWars}/>
       </div>
     );

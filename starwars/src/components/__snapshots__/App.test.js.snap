@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should metch snapchat 1`] = `
+<div
+  className="App"
+>
+  <h1
+    className="sc-bdVaJa fXoFJR"
+  >
+     React Wars 🌌 
+  </h1>
+  <div
+    className="characterList"
+  />
+</div>
+`;
